@@ -5,9 +5,9 @@ name: Integração continua de Java com Maven
 
 on:
   push:
-    branches: [ calculadora ]
+    branches: [ master ]
   pull_request:
-    branches: [ calculadora ]
+    branches: [ master ]
 
 jobs:
   build:
